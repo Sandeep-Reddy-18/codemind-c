@@ -1,5 +1,5 @@
-#include<string.h>
 #include<stdio.h>
+#include<string.h>
 #include<ctype.h>
 int main()
 {
@@ -7,8 +7,8 @@ int main()
     scanf("%[^
 ]s", &str);
     int sum=0;
-    for(int i=0; i<strlen(str); i++){ 
-        if(isdigit(str[i])) sum+=str[i] - '0';
+    for(int i=0; i<strlen(str); i++) {
+        if(isdigit(str[i])) sum+=str[i] -'0';
     }
-    printf("%d",sum);
+    printf("%d", sum);
 }
